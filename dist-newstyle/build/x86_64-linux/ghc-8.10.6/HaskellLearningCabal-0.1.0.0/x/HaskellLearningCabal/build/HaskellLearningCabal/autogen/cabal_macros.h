@@ -10,6 +10,26 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_HaskellLearningCabal */
+/* package HDBC-2.4.0.4 */
+#ifndef VERSION_HDBC
+#define VERSION_HDBC "2.4.0.4"
+#endif /* VERSION_HDBC */
+#ifndef MIN_VERSION_HDBC
+#define MIN_VERSION_HDBC(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  4 || \
+  (major1) == 2 && (major2) == 4 && (minor) <= 0)
+#endif /* MIN_VERSION_HDBC */
+/* package HDBC-sqlite3-2.3.3.1 */
+#ifndef VERSION_HDBC_sqlite3
+#define VERSION_HDBC_sqlite3 "2.3.3.1"
+#endif /* VERSION_HDBC_sqlite3 */
+#ifndef MIN_VERSION_HDBC_sqlite3
+#define MIN_VERSION_HDBC_sqlite3(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  3 || \
+  (major1) == 2 && (major2) == 3 && (minor) <= 3)
+#endif /* MIN_VERSION_HDBC_sqlite3 */
 /* package base-4.14.3.0 */
 #ifndef VERSION_base
 #define VERSION_base "4.14.3.0"
@@ -20,6 +40,16 @@
   (major1) == 4 && (major2) <  14 || \
   (major1) == 4 && (major2) == 14 && (minor) <= 3)
 #endif /* MIN_VERSION_base */
+/* package haskell-say-1.0.0.0 */
+#ifndef VERSION_haskell_say
+#define VERSION_haskell_say "1.0.0.0"
+#endif /* VERSION_haskell_say */
+#ifndef MIN_VERSION_haskell_say
+#define MIN_VERSION_haskell_say(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  0 || \
+  (major1) == 1 && (major2) == 0 && (minor) <= 0)
+#endif /* MIN_VERSION_haskell_say */
 
 /* tool gcc-10.3.0 */
 #ifndef TOOL_VERSION_gcc
