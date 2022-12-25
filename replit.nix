@@ -5,10 +5,6 @@
         ]))
         pkgs.haskell-language-server
         pkgs.cabal-install
+        pkgs.sqlite
     ];
-
-  environment.systemPackages = with pkgs;
-      [
-      sqlite3
-     ];
 }
