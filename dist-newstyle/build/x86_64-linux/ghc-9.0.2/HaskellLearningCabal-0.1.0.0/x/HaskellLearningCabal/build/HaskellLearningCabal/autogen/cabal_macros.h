@@ -40,16 +40,6 @@
   (major1) == 4 && (major2) <  15 || \
   (major1) == 4 && (major2) == 15 && (minor) <= 1)
 #endif /* MIN_VERSION_base */
-/* package haskell-say-1.0.0.0 */
-#ifndef VERSION_haskell_say
-#define VERSION_haskell_say "1.0.0.0"
-#endif /* VERSION_haskell_say */
-#ifndef MIN_VERSION_haskell_say
-#define MIN_VERSION_haskell_say(major1,major2,minor) (\
-  (major1) <  1 || \
-  (major1) == 1 && (major2) <  0 || \
-  (major1) == 1 && (major2) == 0 && (minor) <= 0)
-#endif /* MIN_VERSION_haskell_say */
 
 /* tool cpphs-1.20.9 */
 #ifndef TOOL_VERSION_cpphs
