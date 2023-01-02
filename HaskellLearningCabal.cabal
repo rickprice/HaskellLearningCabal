@@ -37,7 +37,7 @@ executable HaskellLearningCabal
     -- other-extensions:
     build-depends:
       base >=4.14.3.0,
-      -- haskell-say ^>=1.0.0.0,
+      haskell-say ^>=1.0.0.0,
       HDBC ^>=2.4.0.4,
       HDBC-sqlite3
     hs-source-dirs:   app

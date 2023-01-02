@@ -1,6 +1,6 @@
 module Main where
 
--- import HaskellSay (haskellSay)
+import HaskellSay (haskellSay)
 import Database.HDBC
 import Database.HDBC.Sqlite3
 
