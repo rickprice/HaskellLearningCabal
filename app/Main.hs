@@ -4,6 +4,8 @@ module Main where
 import Database.HDBC
 import Database.HDBC.Sqlite3
 
+add a b = a + b
+
 main :: IO ()
 main =
     do

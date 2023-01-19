@@ -23,11 +23,26 @@ version:            0.1.0.0
 -- A copyright notice.
 -- copyright:
 -- category:
+
 extra-source-files:
     CHANGELOG.md
     README.md
 
 executable HaskellLearningCabal
+    ghc-options:
+        -- For details on warnings: https://downloads.haskell.org/~ghc/master/users-guide/using-warnings.html
+        -- This list taken from https://medium.com/mercury-bank/enable-all-the-warnings-a0517bc081c3
+        -- Enable all warnings with -Weverything, then disable the ones we don’t care about
+        -Weverything
+        -Wno-missing-exported-signatures
+        -Wno-missing-import-lists
+        -Wno-missed-specialisations
+        -Wno-all-missed-specialisations
+        -Wno-unsafe
+        -Wno-safe
+        -Wno-missing-local-signatures
+        -Wno-monomorphism-restriction
+
     main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
