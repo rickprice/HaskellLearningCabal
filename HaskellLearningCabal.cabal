@@ -51,7 +51,7 @@ executable HaskellLearningCabal
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:
-      base >=4.14.3.0,
+      base >=4.16.4.0,
       -- haskell-say ^>=1.0.0.0,
       HDBC ^>=2.4.0.4,
       HDBC-sqlite3
